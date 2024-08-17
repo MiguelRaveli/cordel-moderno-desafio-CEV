@@ -38,6 +38,11 @@ a {
   background-size: cover;
 }
 
+.firstImage,
+.secondImage {
+  background-attachment: fixed;
+}
+
 .firstImage p,
 .secondImage p {
   width: 60%;
@@ -72,6 +77,10 @@ a {
     color: white;
     text-shadow: 1px 1px black;
   }
+  .firstImage,
+  .secondImage {
+    background-attachment: fixed;
+  }
 }
 @media (min-width: 641px) {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
@@ -105,6 +114,10 @@ a {
     color: white;
     text-shadow: 1px 1px black;
   }
+  .firstImage,
+  .secondImage {
+    background-attachment: fixed;
+  }
 }
 @media (min-width: 961px) {
   .firstImage p,
@@ -112,6 +125,10 @@ a {
   .content p {
     font-size: 2em;
     line-height: 60px;
+  }
+  .firstImage,
+  .secondImage {
+    background-attachment: fixed;
   }
 }
 @media (min-width: 1025px) {
@@ -136,6 +153,10 @@ a {
     height: 1000px;
     display: flex;
     align-items: center;
+  }
+  .firstImage,
+  .secondImage {
+    background-attachment: fixed;
   }
 }
 @media (min-width: 1281px) {
